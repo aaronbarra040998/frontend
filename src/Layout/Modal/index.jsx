@@ -46,7 +46,7 @@ const Modal = () => {
         className="signup-button"
         type="button"
                 onClick={toggleModal}
-                style={{ backgroundColor: "#18181a" }}
+                style={{ backgroundColor: "#2cd6bb" }}
       >
         <p>Preregistro free</p>
       </button>

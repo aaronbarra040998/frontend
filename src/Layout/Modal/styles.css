@@ -23,8 +23,8 @@ body {
   right: 0;
   /* height: 50vh; */
   padding-bottom: 20px;
-  background: #212a34;
-  color: #f9f9f9;
+  background: #ffffff;
+  color: #000000;
 
   
 }
@@ -38,12 +38,13 @@ body {
   padding: 20px 50px 40px;
   margin: -99px 20px 20px;
   border-radius: 10px;
-  background: #176960;
+  background: #03302d;
 }
 
 .modal-1-footer article h2 {
   font-weight: 400;
   color: rgb(255 255 255 / 70%);
+  font-size: 130%;
 }
 
 .signup-button {
@@ -57,10 +58,10 @@ body {
   background: #161022;
   border: 0;
   border-radius: 15px;
-  color: #10dec3;
+  color: #001e19;
   font-family: inherit;
   font-size: 16px;
-  border: 2px solid rgb(98, 222, 98);
+  border: 2px solid #ffffff;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -123,11 +124,11 @@ body {
 .modal-1-footer section.top ul li a {
   display: block;
   margin-bottom: 18px;
-  color: rgb(255 255 255 / 90%);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .modal-1-footer section.top h3 {
-  color: rgb(255 255 255 / 40%);
+  color: rgba(0, 0, 0, 0.4);
   font-weight: 400;
   text-transform: uppercase;
   font-size: 12px;

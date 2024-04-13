@@ -1,10 +1,13 @@
 .container {
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 0 5%;
+  /* margin: 0 5%;
+   */
+  padding:0 5% 0 5%;
+  background: #000000;
   height: 85vh;
 }
 
@@ -21,7 +24,7 @@
   font-weight: 900;
   margin-bottom: 20px;
   font-family: var(--font-roboto);
-  color: burlywood;
+  color: #18d5b8;
   /* background: linear-gradient(
     90deg,
     rgb(207, 63, 63) 70%,
@@ -35,6 +38,7 @@
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 40px;
+  color: #ffffff;
 }
 
 /* .contactBtn {
@@ -65,13 +69,13 @@
   }
 }
 
-.topBlur,
+/* .topBlur,
 .bottomBlur {
   position: absolute;
   border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
+  background: #00000000;
   filter: blur(100px);
-  z-index: -1; /* Send the blur to the background */
+  z-index: -1; 
 }
 
 .topBlur {
@@ -88,7 +92,7 @@
   min-width: 350px;
   top: 246px;
   /* right: -25vw; */
-}
+/* } */ 
 
 @media screen and (max-width: 952px) {
   .container {
