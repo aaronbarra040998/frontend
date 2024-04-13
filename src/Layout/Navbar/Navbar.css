@@ -3,9 +3,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1b2430;
+    background: #212a34;
     padding: 20px 80px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 7px 17px 0px;
+    z-index: 1;
+    position: fixed; /* Añade esta línea */
+    width: 100%; /* Añade esta línea para asegurar que el navbar se extienda a lo largo de toda la pantalla */
 }
 #navbar{
     display: flex;
@@ -28,7 +31,7 @@ nav{
 }
 #navbar li a:hover,
 #navbar li a.active{
-    color: #f06225;
+    color: #2cd6bb;
 }
 
 #navbar li a:hover::after,
@@ -36,7 +39,7 @@ nav{
 content: "";
 width: 30%;
 height: 2px;
-background: #f06225;
+background: #2cd6bb;
 position:absolute;
 bottom: -4px;
 left: 20px;

@@ -1,19 +1,24 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navbar from '@/Layout/Navbar'
-import Home from '@/Pages/Home'
-import Preinscription from '@/Pages/Preinscription'
+import { BrowserRouter } from 'react-router-dom';
+// , Routes, Route 
+import Navbar from '@/Layout/Navbar';
+import Modal from '@/Layout/Modal';
+import { Body } from '@/Layout/Body';// import Home from '@/Pages/Home';
+// import Preinscription from '@/Pages/Preinscription';
+
 function App() {
   return (
-    <>
-      <BrowserRouter>
+    <BrowserRouter>
+      <>
         <Navbar />
-        <Routes>
+        <Body />
+        {/* <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/preinscription' element={<Preinscription />} />
-        </Routes>
-      </BrowserRouter>
-    </>
-  )
+        </Routes> */}
+        <Modal />
+      </>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
