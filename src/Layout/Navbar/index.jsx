@@ -19,7 +19,7 @@ class Navbar extends Component {
             </svg>
           </a>
           <div>
-            <ul id='navbar'>
+            <ul id='navbar' className={this.state.clicked?"#navbar active":"#navbar"}>
               <li><a className='active' href="/preinscription">home</a></li>
               <li><a href="/">shop</a></li>
               <li><a href="/">blog</a></li>
