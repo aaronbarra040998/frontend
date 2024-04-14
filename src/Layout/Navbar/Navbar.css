@@ -1,11 +1,22 @@
+.logotip {
+    width: 80px;
+    height: 100px;
+    /* Considera añadir propiedades como margen, relleno o bordes según el diseño */
+    transition: transform 0.3s ease; /* Agregamos la transición al estado normal */
+}
+
+.logotip:hover {
+    transform: scale(1.1);
+    filter: grayscale(100%) brightness(0) invert(1); /* Cambia el color de la imagen a blanco */
+}
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #212a34;
-    padding: 20px 80px;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 7px 17px 0px;
+    padding: 0px 40px;
+    box-shadow: #42b8a44f 0px 7px 17px 0px;
     z-index: 1;
     position: fixed; /* Añade esta línea */
     width: 100%; /* Añade esta línea para asegurar que el navbar se extienda a lo largo de toda la pantalla */

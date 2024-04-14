@@ -20,7 +20,7 @@
 }
 
 .title {
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 900;
   margin-bottom: 20px;
   font-family: var(--font-roboto);
@@ -34,8 +34,9 @@
   -webkit-background-clip: text; */
 }
 
+
 .description {
-  font-size: 30px;
+  font-size: 20px;
   font-family: var(--font-roboto);
   margin-bottom: 40px;
   color: #ffffff;

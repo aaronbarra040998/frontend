@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Axios from 'axios'
-
 const baseURL = 'http://127.0.0.1:8000/api/preinscriptions/'
 export default function Preinscription() {
   const [preins, setPreins] = useState([])
@@ -12,6 +11,7 @@ export default function Preinscription() {
   }, [])
   return (
     <>
+
       <div className='flex justify-center items-center h-screen'>
         {/* <h1>Preinscription</h1> */}
         <div>

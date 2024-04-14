@@ -52,7 +52,7 @@ const Modal = () => {
       </button>
     </article>
     <section className="top">
-            <img src={logo} alt="Logo" />
+            <img className="logotipo" src={logo} alt="Logo" />
             <ul>
               <li>
                 <h3>Resources</h3>
